@@ -1,6 +1,6 @@
 {
   "name": "dqtokenizer",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tokenize strings with double quotes, with embedded escaped, backslashed double quotes",
   "main": "index.js",
   "scripts": {
