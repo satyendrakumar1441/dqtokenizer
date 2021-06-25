@@ -1,6 +1,6 @@
 {
   "name": "dqtokenizer",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Tokenize strings with double quotes, with embedded escaped, backslashed double quotes",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,12 @@
     "double",
     "quote",
     "slashed",
-    "escaped"
+    "escaped",
+    "single-quote",
+    "double-quote",
+    "customizable",
+    "additional word boundary characters",
+    "single character tokens"
   ],
   "author": "Satyendra Kumar",
   "license": "ISC",
