@@ -9,10 +9,10 @@ Tokenizes a String with double quotes and escaped double quotes
 Then...
 
 ```
-const DQTokenizer = require('./dqtokenizer');
+const dqtokenizer = require('dqtokenizer');
 
 const str = 'eval hie "SUBSET(?x, allComponents(SQ_Server_MTM), Leftstr(?x.partNum, 2) == \\"90\\")" print nohia attributes "partNum"';
-const tokens = DQTokenizer.tokenize(str, {
+const tokens = dqtokenizer.tokenize(str, {
     includeDoubleQuote: false,
     removeBackslashOfInternalDoubleQuote: true,
     fillMissingLastDoubleQuote: true
