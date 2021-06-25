@@ -176,7 +176,7 @@ const tokenize = (str, {
     return tokens;
 }
 
-const test = true;
+const test = false;
 if (test) {
     const testTokenize = (str, options) => {
         const tokens = tokenize(str, options);
