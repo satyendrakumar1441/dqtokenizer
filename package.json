@@ -1,0 +1,26 @@
+{
+  "name": "dqtokenizer",
+  "version": "1.0.0",
+  "description": "Tokenize strings with double quotes, with embedded escaped, backslashed double quotes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/satyendrakumar1441/dqtokenizer.git"
+  },
+  "keywords": [
+    "tokenize",
+    "double",
+    "quote",
+    "slashed",
+    "escaped"
+  ],
+  "author": "Satyendra Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/satyendrakumar1441/dqtokenizer/issues"
+  },
+  "homepage": "https://github.com/satyendrakumar1441/dqtokenizer#readme"
+}

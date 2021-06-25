@@ -73,13 +73,13 @@ const tokenize = (str,
     return tokens;
 }
 
-const str = 'eval hie "SUBSET(?x, allComponents(SQ_Server_MTM), Leftstr(?x.partNum, 2) == \\"90\\")" print nohia attributes "partNum"';
-const tokens = tokenize(str, {
-    includeDoubleQuote: false,
-    removeBackslashOfInternalDoubleQuote: true,
-    fillMissingLastDoubleQuote: true
-});
-console.log(`str: ${str}`);
-console.log(`tokens: ${tokens}`);
+// const str = 'eval hie "SUBSET(?x, allComponents(SQ_Server_MTM), Leftstr(?x.partNum, 2) == \\"90\\")" print nohia attributes "partNum"';
+// const tokens = tokenize(str, {
+//     includeDoubleQuote: false,
+//     removeBackslashOfInternalDoubleQuote: true,
+//     fillMissingLastDoubleQuote: true
+// });
+// console.log(`str: ${str}`);
+// console.log(`tokens: ${tokens}`);
 
 exports.tokenize = tokenize;
